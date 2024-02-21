@@ -1,0 +1,89 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+.w-80 {
+    max-width: 400px;
+    height: 400px;
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    margin-right: 170px; 
+    margin-top: -600px;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  /* Apply styles to the RegisterForm content */
+  .rounded-2xl {
+    border-radius: 15px; /* Adjust the border radius as needed */
+  }
+  
+  .bg-slate-900 {
+    background-color: #1a202c; /* Adjust the background color as needed */
+  }
+  
+  .text-gray-300 {
+    color: #cbd5e0; /* Adjust the text color as needed */
+  }
+  
+  /* Apply styles to the input fields */
+  .rounded-lg {
+    border-radius: 8px; /* Adjust the border radius for input fields */
+  }
+  
+  .border-gray-300 {
+    border-color: #a0aec0; /* Adjust the border color for input fields */
+  }
+  
+  .px-4 {
+    padding-left: 1rem; /* Adjust the left padding for input fields */
+    padding-right: 1rem; /* Adjust the right padding for input fields */
+  }
+  
+  .py-3 {
+    padding-top: 0.75rem; /* Adjust the top padding for input fields */
+    padding-bottom: 0.75rem; /* Adjust the bottom padding for input fields */
+  }
+  
+  /* Apply styles to the label and checkbox */
+  .text-slate-400 {
+    color: #a0aec0; /* Adjust the text color for the label */
+  }
+  
+  /* Apply styles to the button */
+  .bg-gray-700 {
+    background-color: #4a5568; /* Adjust the background color for the button */
+  }
+  
+  .text-white {
+    color: #fff; /* Adjust the text color for the button */
+  }
+  
+  .hover\:bg-gray-800:hover {
+    background-color: #2d3748; /* Adjust the hover background color for the button */
+  }
+  
+  .active\:scale-95:active {
+    transform: scale(0.95); /* Adjust the scale on button press */
+  }
+  @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply styles to the DarkVariantExample container */
+img {
+  animation: fadeIn 1s ease-out; /* Apply the animation to the image */
+}
+  
+  

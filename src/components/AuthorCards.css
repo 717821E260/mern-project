@@ -1,0 +1,84 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.author-cards-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+  
+  .author-card {
+    text-align: center;
+    max-width: 300px; /* Adjust the max-width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-left: 80px; 
+
+    margin-top: 400px;
+}
+
+  .author-card:hover {
+  
+  }
+  
+
+  
+  .author-image {
+
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+    margin-left: -80px;
+
+   
+    
+  }
+  
+  .author-card:hover .author-image {
+    transform: scale(1.1);
+  }
+  .heading {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom:-250px;
+    margin-left: auto;
+    margin-right: auto; /* Set margin-right to auto */
+    max-width: 500px; /* Adjust the max-width as needed */
+    transform: translateX(350%); /* Add this line to horizontally center the element */
+}
+  
+.paragraph {
+ /* Adjust the top margin as needed */
+  margin-right: -1000px; /* This will move the paragraph to the right */
+  margin-left: auto; /* This will center the paragraph horizontally */
+  max-width: 600px;
+  color:black;
+  font-size: 20px;
+  font-style: italic;
+  transform: translateY(900%); /* Adjust the max-width as needed */
+}
+.paragraph1 {
+  position: relative;
+  top: 80%;
+  transform: translateY(900%);
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  margin-left: auto;
+  margin-right: -960px;
+  max-width: 600px; /* Adjust the maximum width as needed */
+}
+
